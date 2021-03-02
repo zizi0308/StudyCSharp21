@@ -14,7 +14,7 @@ namespace DelegateChainApp // 대리자 하나만 호출하면 다 호출가능
         {
             Console.WriteLine("Calculating!");
             AllCalc allCalc = Plus;
-            allCalc += Minus; // += << delegate chain
+            allCalc += Minus; // += << delegate chain 체인 연결
             allCalc += Multiple;
             allCalc += Divide;
 
