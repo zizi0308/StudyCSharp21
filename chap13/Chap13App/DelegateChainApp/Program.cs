@@ -13,7 +13,7 @@ namespace DelegateChainApp // 대리자 하나만 호출하면 다 호출가능
         static void Main(string[] args)
         {
             Console.WriteLine("Calculating!");
-            AllCalc allCalc = Plus;
+            AllCalc allCalc = Plus; // 대리자야 연산을 해줘
             allCalc += Minus; // += << delegate chain 체인 연결
             allCalc += Multiple;
             allCalc += Divide;
