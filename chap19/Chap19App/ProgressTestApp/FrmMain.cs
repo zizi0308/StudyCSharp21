@@ -26,8 +26,7 @@ namespace ProgressTestApp
                 for (int i = 0; i <= 100; i++)
                 {
                     progressBar1.Value = i; // 메인 스레드(UI와 연결) t의 값을 받을 수 없음
-                    Thread.Sleep(500);
-                    
+                    Thread.Sleep(500);                   
                 }
 
                 label1.Text = "종료";
