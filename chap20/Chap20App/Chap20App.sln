@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWindowApp", "MyWindowApp\MyWindowApp.csproj", "{8E292A7E-C090-48B7-91FE-C7E1765A6F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingControlsApp2", "UsingControlsApp2\UsingControlsApp2.csproj", "{C04DB304-9FF5-437D-9746-9803F69AB5FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingControlsApp", "UsingControlsApp2\UsingControlsApp.csproj", "{C04DB304-9FF5-437D-9746-9803F69AB5FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopyApp", "FileCopyApp\FileCopyApp.csproj", "{A34B0B2A-E6CE-453A-9D34-3871B31329DC}"
 EndProject
